@@ -1,0 +1,10 @@
+.pencil {
+    margin: 6px;
+}
+@media screen and (max-width: 700px) {
+    .pencil {
+        width: 8px;
+        max-height: 8px;
+        margin: 5px;
+    }
+}

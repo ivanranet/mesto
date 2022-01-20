@@ -1,0 +1,12 @@
+.role {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 16px auto 0 0;
+}
+@media screen and (max-width: 700px) {
+    .role {
+        font-size: 14px;
+        line-height: 17px;
+        margin: 14px auto 0;
+    }
+}
