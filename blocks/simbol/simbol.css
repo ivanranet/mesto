@@ -1,7 +1,15 @@
 .simbol {
-    text-align: center;
-    margin-top: 12px;
-    font-size: 22px;
-    line-height: 22px;
+    background-image: url(../../images/add-button.svg);
+    width: 22px;
+    min-height: 22px;
+    margin: 14px auto;
     color: #fff;
+}
+@media screen and (max-width: 700px) {
+    .simbol {
+        background-image: url(../../images/add-button320.svg);
+        width: 16px;
+        min-height: 16px;
+        margin: 17px auto;
+    }
 }
