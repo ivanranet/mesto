@@ -1,5 +1,4 @@
 .simbol {
-    background-image: url(../../images/add-button.svg);
     width: 22px;
     min-height: 22px;
     margin: 14px auto;
@@ -7,7 +6,6 @@
 }
 @media screen and (max-width: 700px) {
     .simbol {
-        background-image: url(../../images/add-button320.svg);
         width: 16px;
         min-height: 16px;
         margin: 17px auto;
