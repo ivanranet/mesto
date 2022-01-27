@@ -1,4 +1,14 @@
 .heart {
-    font-size: 24px;
-    margin: 0 0 0 auto;
+    width: 22px;
+    min-height: 19px;
+    background-image: url(../../images/heart-white.svg);
+    background-repeat: no-repeat;
+    margin: auto 0 auto auto;
+    cursor: pointer;
+}
+.heart:hover {
+    opacity: 0.8;
+}
+.heart:active {
+        background-image: url(../../images/heart-black.svg);
 }

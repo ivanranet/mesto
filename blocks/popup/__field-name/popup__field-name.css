@@ -1,0 +1,10 @@
+.popup__field-name {
+    margin: 30px auto 13px 36px;
+    font-size: 14px;
+    line-height: 17px;
+}
+@media screen and (max-width: 700px) {
+    .popup__field-name {
+        margin: 30px auto 13px 22px;
+    }
+}

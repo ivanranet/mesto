@@ -1,9 +1,8 @@
 .profile__info {
-    width: 336px;
+    
     min-height: 73px;
-    margin: auto auto auto 30px;
+    margin:22px 25px 25px 30px;
     display: flex;
-    flex-wrap: wrap;
     color: #fff;
 }
 @media screen and (max-width: 900px) {
@@ -13,7 +12,7 @@
 }
 @media screen and (max-width: 700px) {
     .profile__info {
-        width: 282px;
+    
         min-height: 54px;
         margin: 22px auto 36px;
     }
