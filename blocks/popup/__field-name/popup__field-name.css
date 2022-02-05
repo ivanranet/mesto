@@ -1,10 +1,15 @@
 .popup__field-name {
+    width: 358px;
+    min-height: 27px;
     margin: 30px auto 13px 36px;
     font-size: 14px;
     line-height: 17px;
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
 }
 @media screen and (max-width: 700px) {
     .popup__field-name {
+        width: 238px;
         margin: 30px auto 13px 22px;
     }
 }
