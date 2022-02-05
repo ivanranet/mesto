@@ -1,7 +1,6 @@
 .simbol {
     width: 22px;
     min-height: 22px;
-    background-image: url(../../images/add-button.svg);
     margin: 14px auto;
     color: #fff;
 }
@@ -9,7 +8,6 @@
     .simbol {
         width: 16px;
         min-height: 16px;
-        background-image: url(../../images/add-button320.svg);
         margin: 17px auto;
     }
 }
