@@ -1,12 +1,13 @@
-const profileOpenPopupButton = document.querySelector('.edit-button');
+const profileOpenPopupButton = document.querySelector('.profile__edit-button');
 const popup = document.querySelector('.popup');
 const popupCloseButton = document.querySelector('.popup__close-icon');
 const profileName = document.querySelector('.user__name');
 const profileJob = document.querySelector('.user__role');
 
 function openPopup(event) {
-  event.preventDefault()
   popup.classList.add('popup_opened')
+  nameInput.value = profileName.textContent;
+  jobInput.value = profileJob.textContent;
 }
 
 function closePopup() {
